@@ -1,0 +1,61 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "周边POI"
+			}
+		}
+	    ,{
+            "path" : "pages/scrbing/scrbing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "划线",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goAddress/goAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "路线方案",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/company/company",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公司地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#007AFF",
+		"selectedColor":"#2C405A",
+		"list":[
+			{
+				"pagePath":"pages/index/index",
+				"text":"周边POI"
+			},
+			{
+				"pagePath":"pages/scrbing/scrbing",
+				"text":"划线"
+			},
+			{
+				"pagePath":"pages/company/company",
+				"text":"公司地址"
+			}
+		]
+	}
+}
